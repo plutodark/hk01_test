@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import TestButton from './components/atoms/TestButton';
 import './App.css';
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <TestButton />
+      hihi
     </div>
   );
 }
