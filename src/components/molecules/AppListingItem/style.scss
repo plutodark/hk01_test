@@ -21,6 +21,16 @@
   font-size: 12px;
 }
 
+.app-listing-item--container--details--rating {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  color: $text-grey;
+  svg {
+    margin: 2px;
+  }
+}
+
 @include responsive('mobile') {
   .app-listing-item--container {
     height: 53px;

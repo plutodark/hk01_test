@@ -93,3 +93,61 @@ export const mockItem = {
   }
   }
 };
+
+export const additionalItem = {
+  "isGameCenterEnabled": false,
+  "screenshotUrls": [
+    "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/21/68/0c/21680ce0-2d3f-6330-c2dd-12e105687fce/mzl.mphbkhoo.png/392x696bb.png",
+    "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/92/f9/22/92f9223e-1b14-5b8c-3869-5db2268d6157/mzl.vaolzanp.png/392x696bb.png",
+    "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/21/0d/21/210d210e-7dc4-d38c-56a5-59f6be964d4c/mzl.sbufkbgt.png/392x696bb.png",
+    "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/2b/e9/53/2be9539b-3373-c667-a1af-83872afe33d4/mzl.vfoyjfmc.png/392x696bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/04/5e/50/045e50d1-a4c8-4f0c-9909-e340a5f5319b/mzl.znreilkz.png/392x696bb.png"
+  ],
+  "ipadScreenshotUrls":[
+    "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/47/ae/a5/47aea51d-1877-b1e6-8f2a-e009d97ad6c9/mzl.ulvavdhv.png/576x768bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/eb/97/4c/eb974c08-bf15-a212-a393-66d4195cfa9d/mzl.qijgjtzh.png/576x768bb.png",
+    "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/92/d9/ed/92d9ed86-1f53-f556-42c1-92908582987c/mzl.dxdpyujf.png/576x768bb.png",
+    "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/79/dc/01/79dc01e2-f516-cfb2-4204-31c8fa28c444/mzl.yviejrrw.png/576x768bb.png",
+    "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/8f/86/07/8f860705-b52d-3dd9-858e-e8d5af518448/mzl.vuihtnmd.png/576x768bb.png"
+  ],
+  "appletvScreenshotUrls":[],
+  "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/f7/df/03/f7df03d7-6e91-1de1-ecb0-2550364af834/source/60x60bb.jpg",
+  "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/f7/df/03/f7df03d7-6e91-1de1-ecb0-2550364af834/source/512x512bb.jpg",
+  "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/f7/df/03/f7df03d7-6e91-1de1-ecb0-2550364af834/source/100x100bb.jpg",
+  "artistViewUrl": "https://apps.apple.com/hk/developer/proton-technologies-ag/id979659484?uo=4",
+  "supportedDevices": [
+    "iPhone6s-iPhone6s",
+    "iPad76-iPad76",
+    "iPhone11ProMax-iPhone11ProMax", "iPhone5s-iPhone5s", "iPad612-iPad612", "iPad834-iPad834", "iPhone6sPlus-iPhone6sPlus", "iPadAir3-iPadAir3", "iPadAir2Cellular-iPadAir2Cellular", "iPadPro97Cellular-iPadPro97Cellular", "iPadMini4-iPadMini4", "iPhone8-iPhone8", "iPhoneX-iPhoneX", "iPodTouchSeventhGen-iPodTouchSeventhGen", "iPadAirCellular-iPadAirCellular", "iPadMini4Cellular-iPadMini4Cellular", "iPad73-iPad73", "iPhone6Plus-iPhone6Plus", "iPad856-iPad856", "iPhoneSESecondGen-iPhoneSESecondGen", "iPhone8Plus-iPhone8Plus", "iPad878-iPad878", "iPadSeventhGenCellular-iPadSeventhGenCellular", "iPadAir2-iPadAir2", "iPad72-iPad72", "iPadPro97-iPadPro97", "iPadAir3Cellular-iPadAir3Cellular", "iPadSeventhGen-iPadSeventhGen", "iPadMiniRetina-iPadMiniRetina", "iPad71-iPad71", "iPhone7-iPhone7", "iPad812-iPad812", "iPadProFourthGenCellular-iPadProFourthGenCellular", "iPhone7Plus-iPhone7Plus", "iPad75-iPad75", "iPhoneXR-iPhoneXR", "iPhone11-iPhone11", "iPadMini3-iPadMini3", "iPadMiniRetinaCellular-iPadMiniRetinaCellular", "iPadMini3Cellular-iPadMini3Cellular", "iPadProSecondGenCellular-iPadProSecondGenCellular", "iPadMini5Cellular-iPadMini5Cellular", "iPhone6-iPhone6", "iPadPro-iPadPro", "iPadProCellular-iPadProCellular", "iPhoneSE-iPhoneSE", "iPhoneXS-iPhoneXS", "iPadMini5-iPadMini5", "iPadProFourthGen-iPadProFourthGen", "iPhone11Pro-iPhone11Pro", "iPad611-iPad611", "iPhoneXSMax-iPhoneXSMax", "iPadProSecondGen-iPadProSecondGen", "iPad74-iPad74", "iPodTouchSixthGen-iPodTouchSixthGen", "iPadAir-iPadAir"
+  ],
+  "advisories":[],
+  "features":["iosUniversal"],
+  "kind":"software",
+  "trackCensoredName":"ProtonVPN——快速安全的 VPN",
+  "languageCodesISO2A":["NL", "EN", "FR", "IT", "PL", "PT", "ES"],
+  "fileSizeBytes":"76293120", "sellerUrl":"https://protonvpn.com",
+  "contentAdvisoryRating":"4+",
+  "averageUserRatingForCurrentVersion":3.82500000000000017763568394002504646778106689453125,
+  "userRatingCountForCurrentVersion":40,
+  "averageUserRating":3.82500000000000017763568394002504646778106689453125,
+  "trackViewUrl":"https://apps.apple.com/hk/app/protonvpn-%E5%BF%AB%E9%80%9F%E5%AE%89%E5%85%A8%E7%9A%84-vpn/id1437005085?uo=4",
+  "trackContentRating":"4+",
+  "genreIds":["6002", "6007"], "trackId":1437005085, "trackName":"ProtonVPN——快速安全的 VPN",
+  "releaseDate":"2018-11-12T16:00:04Z",
+  "formattedPrice":"免費",
+  "primaryGenreName":"Utilities",
+  "isVppDeviceBasedLicensingEnabled":true, "minimumOsVersion":"11.0", "sellerName":"Proton Technologies AG", "currentVersionReleaseDate":"2020-04-30T09:47:50Z",
+  "releaseNotes":"OpenVPN is now available on the iOS app! Go to settings and select either IKEv2 or OpenVPN as your protocol of choice to connect to ProtonVPN servers.", "primaryGenreId":6002, "currency":"HKD",
+  "description":"ProtonVPN 是全球唯一尊重隱私、安全的免費 VPN 服務。數百萬人選擇使用ProtonVPN，因為：\n- 我們不會記錄您的瀏覽歷史\n- 我們不會展示侵犯隱私的廣告\n- 我們不會將您的資料出售給第三方\n- 我們不限制下載流量\n\nProtonVPN 由開創ProtonMail的歐洲核子研究中心（CERN）科學家所研發。ProtonMail 是全球最大型的加密電子郵件服務，擁有2千萬名用戶，其中不乏積極人士和記者，如無國界記者。\n\nProtonVPN 的免費VPN服務包括：\n\n高級加密：您的資料受 AES-256 和 4096 RSA 加密標準之保護。\n\n源自瑞士：您的資料受到世界上最有力的隱私法律之保護。\n\n永不記錄：我們從不記錄或共享用戶資料。即使當局要求提供資料，我們也無法提供。\n\n開源：我們的所有應用程式都經過獨立審核，亦是開源的，因此您可以放心、安全地使用。\n\n完美前向加密：您的加密流量無法被擷取，後續亦無法被解密。\n\n安全協議：我們的 VPN 應用程式使用 IKEv2 協議，快速、穩定，沒有已知弱點。\n\nDNS 外洩防禦：我們將您的 DNS 加密，以確保您的瀏覽活動不會由 DNS 查詢外洩。\n\n保持VPN連接：保護您的 IP 位址，以免因意外連接中斷而洩露。\n\n完整磁片加密：我們的 VPN 伺服器經過完全加密，以保護您的資料。\n\n匿名：使用 ProtonVPN 無需共享任何個人數據。\n\n備受信任：我們團隊身份公開，我們保衛網路隱私的事跡眾所皆知。\n\n支持多平臺：可用於所有設備，包括手機、筆記型電腦、桌上型電腦和路由器。\n\nProtonVPN 付費功能\n\n- 可接入44 個國家的 577 台高速伺服器\n- 瀏覽一般情況下無法訪問的內容，觀看您最喜愛的視頻\n- 接入安全的核心伺服器，藉由多點VPN抵禦網路攻擊\n- 支持檔案共用/BitTorrent\n- 經由 VPN 應用 Tor，可與 Tor 匿名網路進行自動集成\n- 網速高達 10 Gbps\n- 可同時供多達 10 台設備連接使用\n\n注：免費用戶只能將一台設備連接到日本、荷蘭、美國的免費伺服器。\n\n在信息安全領域，Proton 的工程和研究團隊享譽盛名。我們為世界上最被廣泛使用的一些開源加密軟體提供維護服務。無論是挑戰政府、教育公眾，還是培訓記者，我們擁有豐富的經驗，在全球各地幫助更多人實現網路自由。ProtonVPN 也為 Mozilla 所選，為火狐用戶提供VPN保護。\n\n專家意見\n\nMozilla：“VPN 供應商有很多，但能力參差不齊。ProtonVPN 提供的 VPN 服務安全、可靠、容易使用，由 ProtonMail 的締造者運營。ProtonMail 是一個值得尊重的、注重隱私的電子郵件服務......作為一家企業，他們擁有保衛網路隱私的成功經驗，與我們一樣擁有對互聯網安全和保障的奉獻精神。”\n\nPCMag：“ProtonVPN專注以實惠的價格提供嚴格的安全保障服務，因此成為極具吸引力的選擇。此外，其免費版本是迄今為止我們測試過的最佳版本。”\n\n加入隱私革命\n您的支持十分重要，將幫助我們繼續堅持使命，幫助世界各地的人們獲得網路自由和隱私權利。現在獲取 ProtonVPN，隨時隨地安全地接入互聯網。\n\n中國和阿聯酋用戶請注意：由於政府限制，您所在國家/地區可能會限制ProtonVPN的使用。",
+  "artistId": 979659484,
+  "artistName": "Proton Technologies AG",
+  "genres": [
+    "工具程式",
+    "生產力工具"
+  ],
+  "price": 0.00,
+  "bundleId": "ch.protonmail.vpn",
+  "version": "2.0.0",
+  "wrapperType": "software",
+  "userRatingCount": 40
+};
