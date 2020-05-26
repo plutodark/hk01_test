@@ -19,8 +19,8 @@ export const withDefaultContainer = () => (
      items={[]}
    />
   );
- // export const withDefault = () => (
- //   <RecommendedApps
- //     item={mockItems}
- //   />
- // );
+ export const withDefault = () => (
+   <RecommendedApps
+     items={mockItems}
+   />
+ );

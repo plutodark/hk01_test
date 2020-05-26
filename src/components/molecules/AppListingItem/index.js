@@ -6,8 +6,9 @@ import AppListingItemContainer from './container';
 import { getIconSrc } from './helper';
 
 
-const AppListingItem = ({num, item, className }) => {
+const AppListingItem = ({item, className }) => {
   const { isTablet, isMobile } = useContext(SizeContext);
+  const num = _.get(item, 'num', 0);
   const images = _.get(item, 'im:image', []);
   const iconSrc = getIconSrc(images, isTablet, isMobile);
   const label = _.get(item, 'im:name.label', '');

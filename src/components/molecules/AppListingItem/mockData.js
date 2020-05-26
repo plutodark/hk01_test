@@ -1,4 +1,5 @@
 export const mockItem = {
+  num: 13,
   "im:name": {
     label: "一拳超人：最強之男"
   },
