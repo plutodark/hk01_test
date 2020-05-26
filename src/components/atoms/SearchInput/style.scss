@@ -1,5 +1,17 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.search { position: relative; }
+.search input { text-indent: 30px;}
+.search .fa-search {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  font-size: 15px;
+}
+
 .search-input {
   text-align: center;
+  height: 30px;
+  width: 200px;
 }
 .search-input::placeholder {
   text-align: center;

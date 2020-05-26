@@ -24,15 +24,18 @@ const SearchInput = ({
     }
   };
   return (
-    <input
-      className={jointedClassNames}
-      type='search'
-      value={value}
-      onChange={onChange}
-      onKeyDown={onKeyDown}
-      style={style}
-      placeholder={placeholder}
-    />
+    <div className='search'>
+      <span className='fa fa-search'></span>
+      <input
+        className={jointedClassNames}
+        type='search'
+        value={value}
+        onChange={onChange}
+        onKeyDown={onKeyDown}
+        style={style}
+        placeholder={placeholder}
+      />
+    </div>
   );
 }
 SearchInput.defaultProps = {
