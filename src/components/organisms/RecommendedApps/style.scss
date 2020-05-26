@@ -1,0 +1,13 @@
+@import '../../../shared.scss';
+
+.recommended-apps {
+  width: 100vw;
+}
+.recommended-apps--label {
+  font-weight: bold;
+  font-size: 16px;
+}
+.recommended-apps--empty {
+  text-align: center;
+  color: $text-grey;
+}
