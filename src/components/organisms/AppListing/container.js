@@ -10,7 +10,7 @@ const Container = ({ items, className, onReload, isLoading }) => {
   const renderEmpty = () => (<div className='app-listing--empty'>沒有資料</div>);
   const renderItems = () => _.map(items, (obj, index) => (
     <AppListingItem item={obj} key={index} />
-  ))
+  ));
 
   useEffect(() => {
     const handleScroll = () => {

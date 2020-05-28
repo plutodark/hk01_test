@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { INPUT_CHANGE, INPUT_ENTER } from './constants';
-import SearchInput from './';
+import SearchInput from './container';
 
 const SearchContainer = () => {
   const [value, setValue]= useState('');

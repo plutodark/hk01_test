@@ -13,9 +13,9 @@ const AppListingItem = ({item, className }) => {
   const iconSrc = getIconSrc(images, isTablet, isMobile);
   const label = _.get(item, 'im:name.label', '');
   const categoryLabel = _.get(item, 'category.attributes.label', '');
-  const rating = parseFloat(_.get(item, 'averageUserRatingForCurrentVersion', 0));
+  const rating = parseFloat(_.get(item, 'averageUserRatingForCurrentVersion', -1));
   const userRatingCount = parseInt(_.get(item, 'userRatingCountForCurrentVersion', 0), 10);
-  return (
+  return rating < 0 ? null : (
     <AppListingItemContainer
       num={num}
       iconSrc={iconSrc}

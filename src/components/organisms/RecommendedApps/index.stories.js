@@ -1,7 +1,6 @@
 import React from 'react';
 import { SizeProvider } from '../../../contexts/SizeContext';
 import RecommendedAppsContainer from './container';
-import RecommendedApps from './index';
 import { mockItems } from './mockData';
 
 export default {
@@ -19,8 +18,3 @@ export const withDefaultContainer = () => (
      items={[]}
    />
   );
- export const withDefault = () => (
-   <RecommendedApps
-     items={mockItems}
-   />
- );

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useSpring, animated } from 'react-spring';
 import T from 'prop-types';
 import _ from 'lodash';
 import classnames from 'classnames';
@@ -46,15 +47,23 @@ const AppListingItemContainer = ({
     </div>
   );
   const jointedClassNames = classnames('app-listing-item', className);
+  // useSpring
+  const style = useSpring({
+    to: [{ opacity: 1,  marginLeft: 0 }],
+    from: {opacity: 0, marginLeft: 500 },
+    config: { duration: 400 * ((num - 1) % 10) },
+  });
   return (
-    <div className={jointedClassNames}>
-      <Divider />
-      <div className={'app-listing-item--container'}>
-        {renderNumber()}
-        {renderAppIcon()}
-        {renderDetails()}
+    <animated.div style={style}>
+      <div className={jointedClassNames}>
+        <Divider />
+        <div className={'app-listing-item--container'}>
+          {renderNumber()}
+          {renderAppIcon()}
+          {renderDetails()}
+        </div>
       </div>
-    </div>
+    </animated.div>
   );
 };
 
