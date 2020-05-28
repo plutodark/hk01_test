@@ -3,7 +3,6 @@ import T from 'prop-types';
 import _ from 'lodash';
 import classnames from 'classnames';
 import AppListingItem  from '../../molecules/AppListingItem';
-import RefreshButton from '../../atoms/RefreshButton';
 import './style.scss';
 
 const Container = ({ items, className, onReload, isLoading }) => {
@@ -17,7 +16,6 @@ const Container = ({ items, className, onReload, isLoading }) => {
     const handleScroll = () => {
       if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
           // you're at the bottom of the page
-          console.log('reloading');
           onReload();
       }
     };
@@ -25,11 +23,9 @@ const Container = ({ items, className, onReload, isLoading }) => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [onReload]);
   const isEmpty = _.isEmpty(items);
-  const renderRefresh = () => isLoading || isEmpty ? null : <RefreshButton onClick={onReload}/>;
   return (
     <div className={jointedClassName}>
       {isEmpty ? renderEmpty() : renderItems()}
-      {renderRefresh()}
     </div>
   );
 };
