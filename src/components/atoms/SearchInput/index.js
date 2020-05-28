@@ -1,41 +1,35 @@
 import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import T from 'prop-types';
-import classnames from 'classnames';
-import { INPUT_CHANGE, INPUT_ENTER } from './constants';
-import './style.scss';
+import Container from './container';
+import { changeValue, resetPaging } from '../../../store/common/actions';
+import { INPUT_CHANGE } from './constants';
 
 const SearchInput = ({
-  value,
   placeholder,
-  handleEvent,
   className,
   style,
 }) => {
-  const jointedClassNames = classnames('search-input', className);
-  const onChange = (event) => {
-    return handleEvent({ command: INPUT_CHANGE, value: event.target.value });
-  };
-  const onKeyDown = (event) => {
-    switch (event.keyCode) {
-      case 13: // enter
-        return handleEvent({ command: INPUT_ENTER });
+  const value = useSelector((state) => state.getIn(['common', 'search']));
+  const dispatch = useDispatch();
+  const onEvent = ({ command, value}) => {
+    switch (command) {
+      case INPUT_CHANGE:{
+        dispatch(resetPaging());
+        return dispatch(changeValue(value));
+      }
       default:
         break;
     }
   };
   return (
-    <div className='search'>
-      <span className='fa fa-search'></span>
-      <input
-        className={jointedClassNames}
-        type='search'
-        value={value}
-        onChange={onChange}
-        onKeyDown={onKeyDown}
-        style={style}
-        placeholder={placeholder}
-      />
-    </div>
+    <Container
+      value={value}
+      placeholder={placeholder}
+      handleEvent={onEvent}
+      className={className}
+      style={style}
+    />
   );
 }
 SearchInput.defaultProps = {

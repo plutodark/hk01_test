@@ -1,9 +1,15 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
+import WithLoadRecommendedApps from '../../../hocs/WithLoadRecommendedApps';
 import Container from './container';
+import selector from './selector';
 
 
-const RecommendedApps = ({ items }) => (
-  <Container items={items} />
-);
+const RecommendedApps = () => {
+  const items = useSelector(selector);
+  return (
+    <Container items={items} />
+  );
+}
 
-export default RecommendedApps;
+export default WithLoadRecommendedApps(RecommendedApps);

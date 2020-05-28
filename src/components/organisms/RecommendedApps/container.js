@@ -9,7 +9,7 @@ import './style.scss';
 const RecommendedAppsContainer = ({ items, className }) => {
 
   const jointedClassName = classnames( 'recommended-apps',className);
-  const renderItems = () => items.map((obj, index) => (
+  const renderItems = () => _.map(items,(obj, index) => (
     <AppRecommendedItem
       key={index}
       item={obj}

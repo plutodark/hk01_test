@@ -1,1 +1,5 @@
 export const CHANGE_VALUE = 'CHANGE_VALUE';
+export const ADD_PAGING = 'ADD_PAGING';
+export const RESET_PAGING = 'RESET_PAGING';
+export const ADD_RATING_QUEUE = 'ADD_RATING_QUEUE';
+export const UPDATE_RATING_QUEUE = 'UPDATE_RATING_QUEUE';
